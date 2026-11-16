@@ -18,12 +18,12 @@ namespace JatekProjekt
 
         public Karakter(int id, string nev, string osztaly, int szint, int arany, string szerver)
         {
-            this.id = id;
-            this.nev = nev;
-            this.osztaly = osztaly;
-            this.szint = szint;
-            this.arany = arany;
-            this.szerver = szerver;
+            Id = id;
+            Nev = nev;
+            Osztaly = osztaly;
+            Szint = szint;
+            Arany = arany;
+            Szerver = szerver;
         }
 
         public int Id
